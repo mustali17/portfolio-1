@@ -1,0 +1,86 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  transform: translate(-3%, 3%);
+}
+
+.contact img {
+  height: 4vh;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.contact button {
+  background-color: #4285f4;
+  color: rgb(241, 238, 238);
+  border: none;
+  padding: 5px 8px;
+  border-radius: 1px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#logo img {
+  height: 15vh;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-45%, -50%);
+}
+
+#search p {
+  height: -1vh;
+  width: 40vw;
+  border: 1px solid rgb(44, 111, 255);
+  position: absolute;
+  top: 58%;
+  left: 55%;
+  transform: translate(-58%, -55%);
+  padding: 0.5%;
+}
+
+.lucky button {
+  position: absolute;
+  top: 65%;
+  left: 55%;
+  transform: translate(-65%, -55%);
+  border: none;
+  color: #757575;
+  font-weight: bold;
+  padding: 5px 11px;
+  border-radius: 2px;
+}
+
+.lucky button:hover {
+  background-color: rgb(248, 246, 246);
+  color: rgb(39, 39, 39);
+}
+
+@media (max-width: 767px) .navbar-search {
+  height: 98px;
+  border-bottom: 0px;
+}
+
+.navbar-search {
+  position: relative;
+  max-width: 100%;
+  background-color: #f1f1f1;
+  border-bottom-color: #e5e5e5;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: #e5e5e5;
+  border-right-color: #e5e5e5;
+  border-top-color: #e5e5e5;
+  color: #222;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 59px;
+  visibility: visible;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
