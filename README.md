@@ -1,2 +1,5 @@
 # portfolio
-Portfolio site showcasing my skills, education qualifications and projects
+Portfolio site showcasing 
+- skills
+- education qualifications 
+- projects
